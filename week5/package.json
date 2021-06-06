@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint **/*.ts --fix",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
-    "dev": "ts-node src/spread.ts",
+    "dev-array": "ts-node src/array-destructuring.ts",
+    "dev-object": "ts-node src/object-destructuring.ts",
     "tsc": "tsc"
   },
   "author": "",
