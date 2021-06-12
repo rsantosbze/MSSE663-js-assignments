@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint **/*.ts --fix",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
-    "dev": "ts-node src/spread.ts"
+    "dev": "ts-node src/higher-order-funcs.ts"
   },
   "author": "",
   "license": "ISC",
